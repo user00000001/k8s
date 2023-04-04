@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.61">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/favicon.ico"><title>Hello VuePress</title><meta name="description" content="Hello, my friend!">
+    <link rel="preload" href="/k8s/assets/style-aa897d8f.css" as="style"><link rel="stylesheet" href="/k8s/assets/style-aa897d8f.css">
+    <link rel="modulepreload" href="/k8s/assets/app-a34da55a.js"><link rel="modulepreload" href="/k8s/assets/framework-5866ffd3.js"><link rel="modulepreload" href="/k8s/assets/404.html-87d54bd8.js"><link rel="modulepreload" href="/k8s/assets/404.html-60b35caa.js"><link rel="prefetch" href="/k8s/assets/index.html-af99032b.js" as="script"><link rel="prefetch" href="/k8s/assets/index.html-530b946d.js" as="script"><link rel="prefetch" href="/k8s/assets/index.html-14caf458.js" as="script"><link rel="prefetch" href="/k8s/assets/index.html-96c0670c.js" as="script"><link rel="prefetch" href="/k8s/assets/index.html-b809455c.js" as="script"><link rel="prefetch" href="/k8s/assets/index.html-f71eec5b.js" as="script"><link rel="prefetch" href="/k8s/assets/index.html-10c1c5f4.js" as="script"><link rel="prefetch" href="/k8s/assets/index.html-76f93e72.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>Looks like we&#39;ve got some broken links.</blockquote><a href="/k8s/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/k8s/assets/app-a34da55a.js" defer></script>
+  </body>
+</html>
